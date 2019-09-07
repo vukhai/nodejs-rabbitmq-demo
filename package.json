@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-rabbitmq-demo",
+  "version": "1.0.0",
+  "description": "docker run -d --hostname my-rabbit --name some-rabbit -p 15673:15672 -p 5672:5672 rabbitmq:3.7-management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vukhai/nodejs-rabbitmq-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vukhai/nodejs-rabbitmq-demo/issues"
+  },
+  "homepage": "https://github.com/vukhai/nodejs-rabbitmq-demo#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
